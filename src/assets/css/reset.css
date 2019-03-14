@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  background: #f1f2f3;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #999;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #999;
+  font-size:.8rem;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color:#999;
+  font-size:.8rem;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color:#999;
+  font-size:.8rem;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color:#999;
+  font-size:.8rem;
+}
+em {
+  font-style: normal;
+}
+p {
+  font-size: 0.7rem;
+  color: #000;
+  margin: 0 ;
+}
+/*公共头部*/
+.van-nav-bar{
+  background-color: #ff5e00;
+  color: #fff;
+  height: 3.3rem;
+  line-height: 3.3rem;
+}
+.van-nav-bar .van-icon {
+  color: #fff;
+}
+.van-nav-bar__title {
+  color: #fff;
+}
+.van-nav-bar__text {
+  color: #fff;
+}
+/*按钮*/
+.van-button--large {
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+/*更改placehold颜色*/
+input::-webkit-input-placeholder { /* WebKit browsers */
+  color: #adadad;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #adadad;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #adadad;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #adadad;
+}
+select {
+  background: none;
+}
+
+/*轮播*/
+.van-swipe, .van-swipe__track, .van-swipe-item, .van-swipe-item>img {
+  height: 100%;
+}
+
+/*浮动*/
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+  clear: both;
+  display: block;
+  content: "";
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+
+
+
+.down {
+  color: #18b676;
+}
+
+.up {
+  color: #ff494b;
+}
+.loadmore{
+        padding: .5rem;
+    text-align: center;
+   
+}
+.loadmore p {
+   color: #7a7575;
+   font-size: .9rem;
+ }
+  .up .van-stepper__input {
+    color: red;
+  }
+   .down .van-stepper__input {
+     color: green;
+   }
+.xxxx .van-stepper__input{
+  width: 2.8rem;
+}
